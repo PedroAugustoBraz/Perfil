@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Formulário de clientes</b></legend>
+                <br>
+                <section class="InputBox">
+                    <input type="text" name="nome" id="nome" class="InputUser" required>
+                    <label for="name" class="labelinput">Nome completo</label>
+                </section>
+                <br><br>
+                <section class="InputBox">
+                    <input type="email" name="email" id="email" class="InputUser" required>
+                    <label for="email" class="labelinput">E-mail</label>
+                </section>
+                <br><br>
+                <section class="InputBox">
+                    <input type="tel" name="telefone" id="telefone" class="InputUser" required>
+                    <label for="telefone" class="labelinput">Telefone</label>
+                </section>
+                <br><br>
+                <p>Sexo: </p>
+                <input type="radio" id="feminino" name="Sexo" value="feminino" required>
+                <label for="feminino" class="labelinput">Feminino</label>
+                <input type="radio" id="masculino" name="Sexo" value="masculino" required>
+                <label for="masculino" class="labelinput">Masculino</label>
+                <input type="radio" id="outro" name="Sexo" value="outro" required>
+                <label for="outro" class="labelinput">Outro</label>
+                <br><br>
+                <section class="InputBox">
+                    <label for="data_nascimento" class="labelinput"><strong>Data de Nascimento:</strong></label>
+                    <input type="date" name="data_nascimento" id="data_nascimento" class="InputUser" required>
+                </section>
+                <br><br>
+                <section class="InputBox">
+                    <input type="text" name="cidade" id="cidade" class="InputUser" required>
+                    <label for="cidade" class="labelinput">Cidade</label>
+                </section>
+                <br><br>
+                <section class="InputBox">
+                    <input type="text" name="estado" id="estado" class="InputUser" required>
+                    <label for="estado" class="labelinput">Estado</label>
+                </section>
+                <br><br>
+                <section class="InputBox">
+                    <input type="text" name="endereco" id="endereco" class="InputUser" required>
+                    <label for="endereco" class="labelinput">Endereço</label>
+                </section>
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+
+        </form>
+
+    </section>
+</body>
+
+</html>

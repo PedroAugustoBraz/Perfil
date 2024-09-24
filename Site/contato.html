@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="unstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>ByteBox</h1>
+        </div><!--logo-->
+    
+        <div class="cabeçalho-link">
+            <li>
+                <a href="menu.html">Inicio</a>
+            </li>
+            <li>
+                <a href="contato.html">Contato</a>
+            </li>
+            <li>
+                <a href="Login.html">Login</a>
+            </li>
+        </div><!--cabeçalho-link-->
+        <a href="#"><img src="img/icon-cart.svg"></a>
+    </header>
+    
+    <section>
+        <h2>Contato</h2>
+        <form action="https://formspree.io/f/xnnagbev" method="post">
+            <label>Nome</label>
+            <input type="text" name="Nome" placeholder="Nome Inteiro">
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Seu Email">
+            <label>Mensagem</label>
+            <textarea name="Mensagem" cols="30" rows="10" placeholder="Digite uma mensagem"></textarea>
+            <button type="submit">Enviar</button>
+            <input type="hidden" name="acessKey" value="9f432c3f-180b-4839-a482-aa5d295a907c">
+            <input type="hidden" name="replyTo" value="http://127.0.0.1:5500/obrigado.html">
+        </form>
+    </section>
+</body>
+
+</html>

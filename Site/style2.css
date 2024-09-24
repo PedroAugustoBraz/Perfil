@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.background{
+    background-image: url(img/4e3dc23cab082329b06c4a793ce462a1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-color: #63050588;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    background: transparent;
+    transition: all .35s ease;
+    background-color: #660e0ecb;
+    padding: 14px 14%;
+}
+
+
+.logo{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #c72721;
+     
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+}
+
+.cabeçalho-link a{
+    color: #111;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.cabeçalho-link a:hover{
+    color: #c72721;
+}
+
+.icon span{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.icon span:hover{
+    color: #a7130d;
+}
+
+.Meio{
+    padding: 7rem 0 0 8.5rem;
+    line-height: 4rem;
+    color: #fff;
+}
+
+.Meio h1{
+    font-size: 4rem;
+    color: #fff;
+    
+}
+
+.Meio button{
+    background-color: #9e0c0c;
+    padding: 1rem 3rem 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+   font-size: 1rem;
+   cursor: pointer;
+   transition: 0.3s;
+
+}
+
+.Meio button:hover{
+      background-color: #ffffff;
+      transform: scaleY(1.2);
+}
+
+section{
+    padding-top: 7rem;
+
+}
+
+section h1{
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.Container-card-1{
+    display: flex; 
+   justify-content: center;  
+}
+
+.Container-card-2{
+    display: flex;
+    justify-content: center;
+
+}
+
+.Container-card-3{
+    display: flex;
+    justify-content: center;
+}
+
+.cards img{
+    width: 450px;
+    height: auto;
+    transition: 0.35s ease;
+    
+}
+
+.cards img:hover{
+     transform: scale(0.9) translateY(-5px);
+     cursor: pointer;
+   
+     
+}

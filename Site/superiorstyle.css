@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    background: transparent;
+    transition: all .35s ease;
+    background-color: #660e0ecb;
+    padding: 14px 14%;
+}
+
+.logo{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #c72721;
+     
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+}
+
+.cabeçalho-link a{
+    color: #111;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.cabeçalho-link a:hover{
+    color: #c72721;
+}
+
+.Container-card-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 2rem;
+   
+}
+
+.cards img{
+    width: 450px;
+    height: auto;
+    transition: 0.35s ease;
+    
+}
+
+.cards img:hover{
+     transform: scale(0.9) translateY(-5px);
+     cursor: pointer;
+   
+     
+}
+
+
+
+.Container-computadores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    
+}
+
+.Container-computadores img:hover{
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.gabinete img{
+    width: 250px;
+    height: 250px;
+}
+
+.gabinete{
+    background-color: #5c0701;
+    color: #ffffff;
+}
